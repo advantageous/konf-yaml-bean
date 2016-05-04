@@ -1,0 +1,6 @@
+{
+  "name": "Konf Yaml Bean",
+  "tagline": "Konf Yaml Bean Integration",
+  "body": "## Config Lib to combine YamlBeans with Konf\r\n\r\nThis lib allows you to get strongly typed config from YAML file.\r\n\r\n\r\nLet's look at some examples.\r\n\r\n## Combine YamlBeans with Konf strongly typed config\r\n\r\nThis project allows you to combine YamlBean YAML parser with Konf.\r\n\r\n#### Combining YAMLBeans with Konf\r\n\r\n```java\r\nimport static io.advantageous.konf.yaml.bean.YamlBeanConfigLoader.yamlBeanConfig;\r\n\r\n\r\n        Config config = yamlBeanConfig(\"reference.yaml\");\r\n        String abc = config.getString(\"abc\");\r\n        assertEquals(\"abc\", abc);\r\n\r\n```\r\n\r\n#### Combining YamlBeans Yaml with Konf Config.\r\n```java\r\n\r\nimport static io.advantageous.config.ConfigLoader.configs;\r\nimport static io.advantageous.config.ConfigLoader.config;\r\n\r\n\r\n        Config config = configs(yamlBeanConfig(\"reference.yaml\"), \r\n                         config(\"test-config.js\"));\r\n\r\n```\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
