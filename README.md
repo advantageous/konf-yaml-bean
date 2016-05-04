@@ -1,3 +1,5 @@
+[Konf Main Website](http://advantageous.github.io/konf/)
+
 ## Config Lib to combine YamlBeans with Konf
 
 This lib allows you to get strongly typed config from YAML file.
